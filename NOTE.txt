@@ -1,0 +1,7 @@
+1. JSX Conventions------------------------------
+    i) Return a single parent element in JSX
+    ii) Implement js directly in JSX
+    iii) All Tags self-close in JSX
+    iv) ClassName and HTMLFor, not class and for in JSX
+    v) Write all HTML Attributes in camelCase in JSX
+    vi) Write Inline Styles as Objects in JSX

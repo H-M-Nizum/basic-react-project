@@ -1,5 +1,11 @@
+import InlineIfElse from "./components/InlineIfElse";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <InlineIfElse />
+    </>
+  );
 }
 
 export default App;
