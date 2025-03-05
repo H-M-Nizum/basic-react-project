@@ -1,5 +1,6 @@
 import React from "react";
 import ChildComponent from "./ChildComponent";
+import ChildEventComponent from "./ChildEventComponent";
 
 const ParentComponent = () => {
   const userData = {
@@ -10,9 +11,15 @@ const ParentComponent = () => {
     bloodGroup: "A+",
     designation: "Software Engineer",
   };
+
+  //   child button click event
+  const ButtonClick = () => {
+    alert("Show Alart Using Props");
+  };
   return (
     <div>
       <ChildComponent userData={userData} />
+      <ChildEventComponent ChildButtonClink={ButtonClick} />
     </div>
   );
 };
