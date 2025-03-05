@@ -5,3 +5,10 @@
     iv) ClassName and HTMLFor, not class and for in JSX
     v) Write all HTML Attributes in camelCase in JSX
     vi) Write Inline Styles as Objects in JSX
+
+2. Passing Props to a component-------------------
+    i) The term 'props' is an abbreviation for 'properties'
+    ii) used for passing data from one component to another.
+    iii) Props are being passed in a uni-directional flow means one way from parent to child.
+    iv) Props data in read-onlly, which means that data comming from 
+        the parent should not be changed by child components. 
