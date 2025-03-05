@@ -3,6 +3,7 @@ import ImmediatelyInvokd from "./components/ImmediatelyInvokd";
 import InlineIfElse from "./components/InlineIfElse";
 import LoopInside from "./components/LoopInside";
 import ParentComponent from "./components/ProposComponent/ParentComponent";
+import RespondingEvent from "./components/RespondingEvent";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <LoopInside />
       <ConditionalRendaring />
       <ParentComponent />
+      <RespondingEvent />
     </>
   );
 }
