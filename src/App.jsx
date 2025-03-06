@@ -8,6 +8,9 @@ import RespondingEvent from "./components/RespondingEvent";
 import UseRefAPICall from "./components/UseRefAPICall";
 import UseRefComponent from "./components/UseRefComponent";
 import UseRefWorkingWithAttribute from "./components/UseRefWorkingWithAttribute";
+import ParentUseState from "./components/useState/ParentUseState";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
       <UseRefComponent />
       <UseRefWorkingWithAttribute />
       <UseRefAPICall />
+      <ParentUseState />
     </>
   );
 }

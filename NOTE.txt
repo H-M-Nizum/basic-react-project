@@ -34,3 +34,12 @@
     ii) It can be used to store a mutable value taht does not cause
         a re-render when updated.
     iii) It can be used to access a DOM element directly.
+
+5. useState()-------------------------------
+    i) The state is a built-in React object that is used to contain
+        data or information about the componenets.
+    ii) A state can be modified based on user action or network changes.
+    iii) Every time the state of an object changes, React re-renders
+        the component to the browser.
+    iv) In Reac, state refers to an object that holds data of your componenets.
+    v) When data changed component refresh automatically to reflect the change.
