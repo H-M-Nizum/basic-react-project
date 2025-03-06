@@ -7,7 +7,7 @@ const LoopInside = () => {
       <h1>3. Use Loop Inside React Component</h1>
       {grade.map((item, i) => {
         return (
-          <li>
+          <li key={i}>
             {i}. {item}
           </li>
         );

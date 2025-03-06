@@ -1,5 +1,6 @@
 import React from "react";
 import NumberIncreaseAndDecrease from "./NumberIncreaseAndDecrease";
+import TodoList from "./TodoList";
 
 const ParentUseState = () => {
   return (
@@ -8,6 +9,7 @@ const ParentUseState = () => {
       <div className="border border-danger">
         <NumberIncreaseAndDecrease />
         <hr />
+        <TodoList />
       </div>
     </div>
   );
