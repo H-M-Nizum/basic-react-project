@@ -5,6 +5,9 @@ import InlineIfElse from "./components/InlineIfElse";
 import LoopInside from "./components/LoopInside";
 import ParentComponent from "./components/ProposComponent/ParentComponent";
 import RespondingEvent from "./components/RespondingEvent";
+import UseRefAPICall from "./components/UseRefAPICall";
+import UseRefComponent from "./components/UseRefComponent";
+import UseRefWorkingWithAttribute from "./components/UseRefWorkingWithAttribute";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <ParentComponent />
       <RespondingEvent />
       <FromSubmit />
+      <UseRefComponent />
+      <UseRefWorkingWithAttribute />
+      <UseRefAPICall />
     </>
   );
 }

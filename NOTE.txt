@@ -12,3 +12,25 @@
     iii) Props are being passed in a uni-directional flow means one way from parent to child.
     iv) Props data in read-onlly, which means that data comming from 
         the parent should not be changed by child components. 
+    
+3. React Hook--------------------------------
+    i) React Hook is a feature in the react library that allows developer
+    to use state and other React features in functional component.
+    which were previously only available in class componenets.
+    ii) Hooks can be used to manage state, handle side effects, 
+    and access lifecycle methods in functional components.
+    iii) There are several built-in-hooks provided by react,
+        Such as 
+            a) useState
+            b) useEffect
+            c) useContext
+            d) useRef
+    iv) React hooks have greatly simplified the development process in
+    react and have made it easier to write reusable and composable code.
+
+
+4. UseRef()-------------------------------
+    i)The useRef Hook allows to persist values between renders.
+    ii) It can be used to store a mutable value taht does not cause
+        a re-render when updated.
+    iii) It can be used to access a DOM element directly.
